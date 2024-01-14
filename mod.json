@@ -1,0 +1,23 @@
+{
+    "Name": "ConflictsOfTheInnerSphere",
+    "Enabled": true,
+
+    "Version": "0.9.0",
+    "Description": "Lore compliant conflicts of the inner sphere",
+    "Author": "Warenwolf/MRB",
+	
+	"DependsOn": [ "Timeline", "BT_Extended_Timeline"],
+
+    "Manifest": [
+    { "Type": "CastDef", "Path": "cast" },
+	{ "Type": "ContractOverride", "Path": "contracts" },
+	{ "Type": "Sprite", "Path": "sprites" },
+	{ "Type": "ItemCollectionDef", "Path": "itemCollections" },
+	{ "Type": "ConversationContent", "Path": "dialogue_buckets" },
+	{ "Type": "PilotDef", "Path": "pilot" },
+	{ "Type": "TurretDef", "Path": "turret", "AddToDB": false },
+	{ "Type": "MechDef", "Path": "mech" },
+	{ "Type": "AbilityDef","Path": "ability","AddToDB": false },
+	{ "Type": "DialogBucketDef", "Path": "conversationBuckets" },
+	{ "Type": "Texture2D",  "Path": "textures", "AddToAddendum": "ConversationTexture" }]
+}
